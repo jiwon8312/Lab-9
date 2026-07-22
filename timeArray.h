@@ -17,7 +17,7 @@ namespace JangJiwon2593266
                 a = new timeOfDay[n];
                 for (int i = 0; i<n; ++i) a[i] = copy.a[i];
                 // *(a+i) = *(copy.a+i);
-            } a = nullptr;
+            } else a = nullptr;
         }
         timeArray& operator=(const timeArray& copy)
         {
@@ -61,7 +61,7 @@ namespace JangJiwon2593266
         {
             if (a)
             {
-                for (i = 0; i<n; ++i)
+                for (int i = 0; i<n; ++i)
                     std::cout << a[i] << ' ';
                 std::cout << std::endl;
             }

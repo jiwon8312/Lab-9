@@ -55,7 +55,7 @@ namespace JangJiwon2593266
 
 			return is;
 		}
-		friend std::ostream& operator<<(std::ostream& of, const timeOfDay& t)
+		friend std::ostream& operator<<(std::ostream& os, const timeOfDay& t)
 		{
 			if (t.hour < 10) os << "0"; os << t.hour << ":";
 			if (t.minute < 10) os << "0"; os << t.minute;

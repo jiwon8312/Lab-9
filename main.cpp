@@ -3,7 +3,7 @@
 
 namespace JangJiwon2593266
 {
-    void printTimeArrayVector(std::vector<timeArray>& vector)
+    void printTimeArrayVector(std::vector<timeArray>& v)
     {
         for (const auto& vi : v)
             vi.printAll();
